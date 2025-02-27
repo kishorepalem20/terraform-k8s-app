@@ -1,0 +1,11 @@
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Kubernetes config
+.kube/
+
+# Sensitive files
+*.tfvars
